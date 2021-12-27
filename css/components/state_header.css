@@ -1,0 +1,21 @@
+header {
+  display: flex;
+}
+.state_header__column {
+  width: 33%;
+}
+.state_header__column:nth-child(2) {
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 8px;
+}
+.state_header__column:nth-child(3) {
+  justify-content: right;
+  font-size: 13px;
+  line-height: 8px;
+}
+
+.state_header__column:nth-child(3) > * {
+  margin-left: 5px;
+}

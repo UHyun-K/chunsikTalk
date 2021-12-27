@@ -1,0 +1,16 @@
+.chat_list {
+  display: flex;
+  flex-direction: column;
+}
+.chat_list a {
+}
+.new_talk {
+  margin: 0 auto;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: palevioletred;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+}

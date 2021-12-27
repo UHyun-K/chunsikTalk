@@ -1,0 +1,38 @@
+@import url(./reset.css);
+@import url(./variables.css);
+/*Components*/
+@import url(components/state_header.css);
+@import url(components/big_screen.css);
+@import url(components/bottom.css);
+@import url(components/avatar.css);
+/*Screens*/
+@import url(screens/login.css);
+@import url(screens/friends.css);
+@import url(screens/chats.css);
+@import url(screens/setting.css);
+@import url(screens/find.css);
+@import url(screens/talk.css);
+
+body {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: "Jua", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 370px;
+  height: 100vh;
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  position: relative;
+  overflow: auto;
+}
+.opacity {
+  opacity: var(--opacity);
+}

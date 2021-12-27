@@ -1,0 +1,21 @@
+.avatar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.avatar__column {
+  display: flex;
+  align-items: center;
+}
+.avatar__column .face {
+  background: var(--default-color);
+  border-radius: 35%;
+  margin-right: 15px;
+}
+.avatar_column-text {
+  display: flex;
+  flex-direction: column;
+}
+.avatar_column-text span {
+  margin-bottom: 13px;
+}
